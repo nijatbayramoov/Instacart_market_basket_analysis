@@ -1,25 +1,25 @@
 # 🛒 Instacart Market Basket Analysis
 
-Bu layihədə Instacart market məlumatları üzərində Data Analysis və Exploratory Data Analysis (EDA) aparılmışdır. Layihə Python proqramlaşdırma dili və müxtəlif Data Science kitabxanalarından istifadə edilərək Google Colab mühitində hazırlanmışdır.
+This project focuses on analyzing Instacart grocery shopping data using Python and Data Analysis techniques. The project was developed in Google Colab.
 
 ---
 
-# 📌 Layihə Haqqında
+# 📌 Project Overview
 
-Layihənin əsas məqsədi istifadəçilərin alış-veriş davranışlarını analiz etmək və məhsul sifarişləri üzərində statistik nəticələr əldə etməkdir.
+The main goal of this project is to analyze customer shopping behavior and discover useful insights from market basket data.
 
-Analiz zamanı aşağıdakı mövzular araşdırılmışdır:
+The analysis includes:
 
-* Ən çox sifariş edilən məhsullar
-* İstifadəçi alış-veriş davranışları
-* Sifariş tezliyi
-* Məhsul kateqoriyalarının müqayisəsi
-* Gün və saatlara görə sifariş analizi
-* Statistik qrafiklər və vizuallaşdırmalar
+* Most ordered products
+* Customer purchasing behavior
+* Order frequency analysis
+* Product category comparison
+* Order trends by day and hour
+* Statistical visualizations
 
 ---
 
-# 🛠 İstifadə Olunan Texnologiyalar
+# 🛠 Technologies Used
 
 * Python
 * Pandas
@@ -30,9 +30,9 @@ Analiz zamanı aşağıdakı mövzular araşdırılmışdır:
 
 ---
 
-# 📂 Layihə Strukturu
+# 📂 Project Structure
 
-```bash id="evk1b7"
+```bash id="x8f2r1"
 ├── Instacart_market_basket_analysis.ipynb
 ├── README.md
 ├── requirements.txt
@@ -41,64 +41,70 @@ Analiz zamanı aşağıdakı mövzular araşdırılmışdır:
 
 ---
 
-# 📊 Aparılan Analizlər
+# 📊 Analysis Performed
 
 ## ✔ Data Cleaning
 
-* Boş dəyərlərin yoxlanılması
-* Təkrarlanan məlumatların silinməsi
-* Dataset məlumatlarının yoxlanılması
+* Handling missing values
+* Removing duplicate data
+* Dataset inspection
 
 ## ✔ Exploratory Data Analysis (EDA)
 
-* Ən populyar məhsulların analizi
-* İstifadəçi sifariş davranışları
-* Kateqoriya müqayisələri
-* Sifariş sıxlığı analizi
+* Popular product analysis
+* Customer order behavior
+* Product category comparison
+* Order density analysis
 
 ## ✔ Data Visualization
 
-* Bar chart
-* Count plot
-* Heatmap
-* Distribution qrafikləri
+* Bar charts
+* Count plots
+* Heatmaps
+* Distribution graphs
 
 ---
 
-# 📈 Layihədən Əldə Edilən Nəticələr
+# 📈 Key Insights
 
-* Bəzi məhsullar digər məhsullara nisbətən daha çox sifariş edilir
-* Müəyyən saatlarda sifariş sıxlığı artır
-* İstifadəçilərin alış-veriş davranışlarında müəyyən pattern-lər mövcuddur
-* Məhsul kateqoriyaları üzrə fərqli sifariş tendensiyaları müşahidə olunur
+* Some products are ordered significantly more than others
+* Order activity increases during specific hours
+* Customer shopping behavior shows clear patterns
+* Product categories have different purchasing trends
 
 ---
 
-# ▶️ Layihəni İşə Salmaq
+# ▶️ Getting Started
 
-## Repository-ni clone edin
+## Clone the Repository
 
-```bash id="j8g3c5"
+```bash id="m9q4k2"
 git clone https://github.com/your-username/your-repository-name.git
 ```
 
-## Lazımi kitabxanaları quraşdırın
+## Install Required Libraries
 
-```bash id="i7m2k9"
+```bash id="n2v8t5"
 pip install -r requirements.txt
 ```
 
-## Notebook-u açın
+## Run the Notebook
 
-Layihəni aşağıdakı platformalarda işlədə bilərsiniz:
+You can run this project using:
 
 * Google Colab
 * Jupyter Notebook
 
 ---
 
-# 🎯 Layihənin Məqsədi
+# 🎯 Project Goal
 
-Bu layihə Data Analysis və Data Visualization bacarıqlarını inkişaf etdirmək, real market məlumatları üzərində analiz aparmaq və praktiki təcrübə qazanmaq məqsədilə hazırlanmışdır.
+The purpose of this project is to improve practical skills in:
+
+* Data Analysis
+* Data Visualization
+* Exploratory Data Analysis (EDA)
+
+using real-world grocery shopping datasets.
 
 Nicat Bayramov
